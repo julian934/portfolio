@@ -1,0 +1,2708 @@
+
+@media(min-width:3000px){
+    .main{
+        display:grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-template-rows: repeat(5,1fr);
+        background:white;
+        background-size:cover;
+        height:38.58vw
+    }
+    .hr{
+        color:linear-gradient(rgb(218,165,32),rgb(255,255,255))
+    }
+    .mainBorder{
+        border-color:radial-gradient(rgb(218.165,32),rgb(255,0,0),rgb(0,0,0));
+        border-radius:5%;
+    }
+    .headerFont{
+        font-family: "montserrat", sans-serif;
+        font-weight: 100;
+        font-size:24px;
+        color:goldenrod;
+    }
+    .subHeaderFont{
+        font-family: "montserrat", sans-serif;
+        font-weight: 100;
+        font-size:18px;
+        color:goldenrod;
+    }
+    .navGroup{
+        grid-area:2/4/3/5;
+        display:flex;
+        position:relative;
+        
+        
+    }
+    .hrl1{
+        grid-area:2/2/3/3;
+        position:relative;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+        height:15px;
+        width:600px;
+        z-index:3;
+        bottom:20px;
+        right:33px;
+        border-color:transparent;
+        border:transparent;
+    }
+    .hrl2{
+        grid-area:2/2/3/3;
+        position:relative;
+        right:325px;
+        top:280px;
+        rotate:90deg;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+        width:600px;
+        height:15px;
+        z-index:2;
+        border-color:transparent;
+        border:transparent;
+    }
+    .hrl3{
+        grid-area:5/5/6/6;
+        position:relative;
+        background:linear-gradient(-90deg,rgba(218,165,32),rgba(255,255,255));
+        width:600px;
+        height:15px;
+        rotate:90deg;
+        z-index:2;
+        border-color:transparent;
+        border:transparent;
+        bottom:150px;
+    }
+    .hrl4{
+        grid-area:5/5/6/6;
+        position:relative;
+        background:linear-gradient(-90deg,rgba(218,165,32),rgba(255,255,255));
+        width:600px;
+        height:15px;
+        z-index:2;
+        border-color:transparent;
+        border:transparent;
+        top:155px;
+        right:292px;
+    }
+    .projhr1{
+        grid-area:3/3/4/4;
+        background:linear-gradient(-90deg,rgba(218,165,32),rgba(255,255,255));
+        width:300px;
+        height:10px;
+        z-index:2;
+        border-color:transparent;
+        border:transparent;
+        rotate:-90deg;
+        position:relative;
+        top:93px;
+        left:307px;
+    }
+    .projhr2{
+        grid-area:3/3/4/4;
+        background:linear-gradient(-90deg,rgba(218,165,32),rgba(255,255,255));
+        width:300px;
+        height:10px;
+        z-index:2;
+        border-color:transparent;
+        border:transparent;
+        rotate:-180deg;
+        position:relative;
+        bottom:52px;
+        left:455px;
+    }
+    .navGroup2{
+        display:flex;
+        position:relative;
+        grid-area:1/5/2/6;
+    
+    }
+    .projectArea{
+        grid-area:3/3/4/4;
+        display:flex;
+        flex-flow:column wrap;
+        justify-content:flex-start;
+        align-content:flex-end;
+        position:relative;
+        bottom:25px;
+        right:20px;
+    }
+    
+    .nav1{
+        position:relative;
+        font-family: "montserrat", sans-serif;
+        font-weight: 200;
+        justify-content:space-between;
+        left:35px;
+        color:rgba(218,165,32);
+        grid-area:2/4/3/5;
+        font-size:24px;
+    
+    }
+    .navhr1{
+        position:relative;
+        grid-column:1;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255)); 
+        height:10px;
+        width:150px;  
+        rotate:360deg;
+        justify-self:flex-start;
+        align-self:flex-start;
+        top:25px;
+        right:50px;
+        border-color:transparent;
+        border:transparent;
+    }
+    .nav2{
+        position:relative;
+        font-family: "montserrat", sans-serif;
+        font-weight: 200;
+        justify-content:space-between;
+        color:rgba(218,165,32);
+        grid-area:2/4/3/5;
+        font-size:24px;
+        left:35px;
+        
+    }
+    .navhr2{
+        position:relative;
+        grid-area:1/5/2/6;
+        rotate:90deg;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+        height:10px;
+        width:150px;  
+        rotate:360deg;
+        top:25px;
+        right:80px;
+        border-color:transparent;
+        border:transparent;
+    }
+    .nav3{
+        position:relative;
+        font-family: "montserrat", sans-serif;
+        font-weight: 200;
+        justify-content:space-between;
+        left:20px;
+        color:rgba(218,165,32);
+        grid-area:1/5/2/6;
+        font-size:24px;
+    }
+    .navhr3{
+        position:relative;
+        grid-area:1/5/2/6;
+        rotate:90deg;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+        height:10px;
+        width:150px;  
+        rotate:360deg;
+        top:25px;
+        right:75px;
+        border-color:transparent;
+        border:transparent;
+    
+    }
+    .div{
+        display:flex;
+        flex-flow:wrap;
+        grid-area:2/2/3/3;
+    }
+    .img1{
+        grid-area:1/1/2/2;
+        display:flex;
+        align-content:flex-start;
+        justify-content:flex-start;
+        position:relative;
+        
+    }
+    .header1{
+        align-content:space-around;
+        justify-content:flex-start;
+        font-family:"montserrat",sans-serif;
+        font-weight:200;
+        color:rgba(218,165,32);
+        position:relative;
+        font-size:72px;
+        top:100px;
+        right:100px;
+    }
+    .header2Proj{
+        grid-area:3/3/4/4;
+        display:flex;
+        font-family:"montserrat",sans-serif;
+        font-weight:130;
+        align-content:flex-start;
+        justify-content:flex-end;
+        position:relative;
+        top:-110px;
+        color:rgba(218,165,32);
+        font-size:48px;
+    }
+    .projLink1{
+        position:relative;
+        align-self:flex-start;
+        font-family:"montserrat",sans-serif;
+        justify-self:center;
+        color:rgba(218,165,32);
+        font-size:24px;
+        left:75px;
+    }
+    .projLink2{
+        position:relative;
+        align-self:space-between;
+        font-family:"montserrat",sans-serif;
+        justify-self:center;
+        color:rgba(218,165,32);
+        font-size:24px;
+        top:50px;
+        left:75px;
+    }
+    .projLink3{
+        align-self:flex-end;
+        font-family:"montserrat",sans-serif;
+        justify-self:center;
+        position:relative;
+        right:75px;
+        color:rgba(218,165,32);
+        font-size:24px;
+        top:100px;
+        left:-30px;
+    }
+    .para1{
+        grid-area:2/2/3/3;
+        position:relative;
+        flex-flow:wrap;
+        align-content:space-between;
+        font-family:"montserrat",sans-serif;
+        font-size:17px;
+        width:550px;
+        left:150px;
+    }
+    .paraHr{
+        rotate:180deg;
+        color:linear-gradient(rgb(218,165,32),rgb(255,255,255));
+    }
+
+    .footer{
+        grid-area:5/3/6/4;
+        display:flex;
+    }
+    .footerHeader{
+        justify-content:flex-start;
+        align-self:flex-start;
+        position:relative;
+        bottom:45px;
+        left:100px;
+        font-family:"montserrat",sans-serif;
+        font-weight:100;
+        font-size:42px;
+        color:rgba(218,165,32);
+        height:10px;
+    }
+    .footerHr{
+        position:relative;
+        background:linear-gradient(-90deg,rgba(218,165,32),rgba(255,255,255));
+        width:300px;
+        height:10px;
+        z-index:2;
+        border-color:transparent;
+        border:transparent;
+        align-self:flex-start;
+        justify-self:flex-start;
+        rotate:-180deg;
+        right:100px;
+    
+    }
+    .fI1{
+    position:relative;
+    grid-area:5/2/6/3;
+    justify-self:flex-end;
+    align-self:flex-start;
+    left:100px;
+    top:25px;
+    
+    }
+    .fI2{
+        position:relative;
+        grid-area:5/2/6/3;
+    justify-self:flex-end;
+    align-self:flex-start;
+        left:180px;
+        top:25px;
+    }
+    .fI3{
+        position:relative;
+        grid-area:5/2/6/3;
+    justify-self:flex-end;
+    align-self:flex-start;
+        left:250px;
+        top:25px;
+    }
+    .fI4{
+        position:relative;
+        grid-area:5/2/6/3;
+    justify-self:flex-end;
+    align-self:flex-start;
+       left:325px;
+       top:25px;
+    }
+    .paraHr2{
+        grid-area:2/2/3/3;
+        justify-self:flex-start;
+        
+        position:relative;
+            background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+            height:10px;
+            width:100px;
+            z-index:3;
+            rotate:90deg;
+            border-color:transparent;
+            border:transparent;
+            right:565px;
+            top:58px;
+            bottom:-200px;
+        align-self:flex-end;
+        
+    }
+}
+@media(max-width:1920px) and (max-height:1080px){
+    .main{
+        display:grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-template-rows: repeat(5,1fr);
+        background:white;
+        background-size:cover;
+        height:57vw
+    }
+    .hr{
+        color:linear-gradient(rgb(218,165,32),rgb(255,255,255))
+    }
+    .mainBorder{
+        border-color:radial-gradient(rgb(218.165,32),rgb(255,0,0),rgb(0,0,0));
+        border-radius:5%;
+    }
+    .headerFont{
+        font-family: "montserrat", sans-serif;
+        font-weight: 100;
+        font-size:24px;
+        color:goldenrod;
+    }
+    .subHeaderFont{
+        font-family: "montserrat", sans-serif;
+        font-weight: 100;
+        font-size:18px;
+        color:goldenrod;
+    }
+    .navGroup{
+        grid-area:2/4/3/5;
+        display:flex;
+        position:relative;
+        
+        
+    }
+    .hrl1{
+        grid-area:2/2/3/3;
+        position:relative;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+        height:15px;
+        width:500px;
+        z-index:3;
+        bottom:20px;
+        left:100px;
+        border-color:transparent;
+        border:transparent;
+    }
+    .hrl2{
+        grid-area:2/2/3/3;
+        position:relative;
+        right:145px;
+        top:222px;
+        rotate:90deg;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+        width:500px;
+        height:15px;
+        z-index:2;
+        border-color:transparent;
+        border:transparent;
+        
+    }
+    .hrl3{
+        grid-area:4/4/5/5;
+        position:relative;
+        background:linear-gradient(-90deg,rgba(218,165,32),rgba(255,255,255));
+        width:500px;
+        height:15px;
+        rotate:90deg;
+        z-index:2;
+        border-color:transparent;
+        border:transparent;
+        bottom:200px;
+        left:325px;
+    }
+    .hrl4{
+        grid-area:4/4/5/5;
+        position:relative;
+        background:linear-gradient(-90deg,rgba(218,165,32),rgba(255,255,255));
+        width:500px;
+        height:15px;
+        z-index:2;
+        border-color:transparent;
+        border:transparent;
+        top:50px;
+        left:82px;
+    }
+    .projhr1{
+        grid-area:3/3/4/4;
+        background:linear-gradient(-90deg,rgba(218,165,32),rgba(255,255,255));
+        width:200px;
+        height:10px;
+        z-index:2;
+        border-color:transparent;
+        border:transparent;
+        rotate:-90deg;
+        position:relative;
+        bottom:30px;
+        left:300px;
+    }
+    .projhr2{
+        grid-area:3/3/4/4;
+        background:linear-gradient(-90deg,rgba(218,165,32),rgba(255,255,255));
+        width:200px;
+        height:10px;
+        z-index:2;
+        border-color:transparent;
+        border:transparent;
+        rotate:-180deg;
+        position:relative;
+        bottom:125px;
+        left:400px;
+    }
+    .navGroup2{
+        display:flex;
+        position:relative;
+        grid-area:1/5/2/6;
+    
+    }
+    .projectArea{
+        grid-area:3/3/4/4;
+        display:flex;
+        flex-flow:column wrap;
+        justify-content:flex-start;
+        align-content:flex-end;
+        position:relative;
+        bottom:25px;
+        right:20px;
+    }
+    
+    .nav1{
+        position:relative;
+        font-family: "montserrat", sans-serif;
+        font-weight: 200;
+        justify-content:space-between;
+        left:15px;
+        color:rgba(218,165,32);
+        grid-area:2/4/3/5;
+        font-size:24px;
+        bottom:35px;
+    }
+    .navhr1{
+        position:relative;
+        grid-column:1;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255)); 
+        height:10px;
+        width:100px;  
+        rotate:360deg;
+        justify-self:flex-start;
+        align-self:flex-start;
+        bottom:10px;
+        right:50px;
+        border-color:transparent;
+        border:transparent;
+    }
+    .nav2{
+        position:relative;
+        font-family: "montserrat", sans-serif;
+        font-weight: 200;
+        justify-content:space-between;
+        color:rgba(218,165,32);
+        grid-area:2/4/3/5;
+        font-size:24px;
+        left:35px;
+        bottom:35px;
+    }
+    .navhr2{
+        position:relative;
+        grid-area:1/5/2/6;
+        rotate:90deg;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+        height:10px;
+        width:150px;  
+        rotate:360deg;
+        bottom:10px;
+        right:90px;
+        border-color:transparent;
+        border:transparent;
+        
+    }
+    .nav3{
+        position:relative;
+        font-family: "montserrat", sans-serif;
+        font-weight: 200;
+        justify-content:space-between;
+        left:20px;
+        color:rgba(218,165,32);
+        grid-area:1/5/2/6;
+        font-size:24px;
+        bottom:35px;
+    }
+    .navhr3{
+        position:relative;
+        grid-area:1/5/2/6;
+        rotate:90deg;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+        height:10px;
+        width:100px;  
+        rotate:360deg;
+        bottom:10px;
+        right:65px;
+        border-color:transparent;
+        border:transparent;
+      
+    }
+    .div{
+        display:flex;
+        flex-flow:wrap;
+        grid-area:2/2/3/3;
+        position:relative;
+    }
+    .img1{
+        grid-area:1/1/2/2;
+        display:flex;
+        align-content:flex-start;
+        justify-content:flex-start;
+        position:relative;
+        
+    }
+    .header1{
+        grid-area:2/2/3/3;
+        align-content:space-around;
+        justify-content:flex-start;
+        font-family:"montserrat",sans-serif;
+        font-weight:200;
+        color:rgba(218,165,32);
+        position:relative;
+        font-size:72px;
+        left:150px;
+        
+    }
+    .header2Proj{
+        grid-area:3/3/4/4;
+        display:flex;
+        font-family:"montserrat",sans-serif;
+        font-weight:130;
+        align-content:flex-start;
+        justify-content:flex-end;
+        position:relative;
+        top:-185px;
+        color:rgba(218,165,32);
+        font-size:48px;
+        bottom:150px;
+        left:175px;
+    }
+    .projLink1{
+        position:relative;
+        align-self:flex-start;
+        font-family:"montserrat",sans-serif;
+        justify-self:center;
+        color:rgba(218,165,32);
+        font-size:24px;
+        left:300px;
+        bottom:75px;
+    }
+    .projLink2{
+        position:relative;
+        align-self:space-between;
+        font-family:"montserrat",sans-serif;
+        justify-self:center;
+        color:rgba(218,165,32);
+        font-size:24px;
+        bottom:35px;
+        left:300px;
+    }
+    .projLink3{
+        align-self:flex-end;
+        font-family:"montserrat",sans-serif;
+        justify-self:center;
+        position:relative;
+        right:75px;
+        color:rgba(218,165,32);
+        font-size:24px;
+       
+        left:190px;
+    }
+    .para1{
+        grid-area:2/2/3/3;
+        position:relative;
+        flex-flow:wrap;
+        align-content:space-between;
+        font-family:"montserrat",sans-serif;
+        font-size:17px;
+        width:525px;
+        left:150px;
+    }
+    .paraHr{
+        rotate:180deg;
+        color:linear-gradient(rgb(218,165,32),rgb(255,255,255));
+    }
+
+    .footer{
+        grid-area:5/3/6/4;
+        display:flex;
+    }
+    .footerHeader{
+        justify-content:flex-start;
+        align-self:flex-start;
+        position:relative;
+        bottom:130px;
+        left:100px;
+        font-family:"montserrat",sans-serif;
+        font-weight:100;
+        font-size:42px;
+        color:rgba(218,165,32);
+        height:10px;
+    }
+    .footerHr{
+        position:relative;
+        background:linear-gradient(-90deg,rgba(218,165,32),rgba(255,255,255));
+        width:250px;
+        height:10px;
+        z-index:2;
+        border-color:transparent;
+        border:transparent;
+        align-self:flex-start;
+        justify-self:flex-start;
+        rotate:-180deg;
+        right:100px;
+        bottom:85px;
+        
+    }
+    .fI1{
+    position:relative;
+    grid-area:5/2/6/3;
+    justify-self:flex-end;
+    align-self:flex-start;
+    left:100px;
+    bottom:60px;
+    
+    }
+    .fI2{
+        position:relative;
+        grid-area:5/2/6/3;
+    justify-self:flex-end;
+    align-self:flex-start;
+        left:180px;
+        bottom:60px;
+    }
+    .fI3{
+        position:relative;
+        grid-area:5/2/6/3;
+    justify-self:flex-end;
+    align-self:flex-start;
+        left:250px;
+        bottom:60px;
+    }
+    .fI4{
+        position:relative;
+        grid-area:5/2/6/3;
+    justify-self:flex-end;
+    align-self:flex-start;
+       left:325px;
+       bottom:60px;
+    }
+    .paraHr2{
+        grid-area:2/2/3/3;
+        justify-self:flex-start;
+        
+        position:relative;
+            background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+            height:10px;
+            width:100px;
+            z-index:3;
+            rotate:90deg;
+            border-color:transparent;
+            border:transparent;
+            right:260px;
+            top:58px;
+            bottom:-200px;
+        align-self:flex-end;
+        
+        
+    }
+
+
+}
+@media(max-width:1366px) and (max-height:768px){
+    .main{
+        display:grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-template-rows: repeat(5,1fr);
+        background:white;
+        background-size:cover;
+        height:57vw
+    }
+    .hr{
+        color:linear-gradient(rgb(218,165,32),rgb(255,255,255))
+    }
+    .mainBorder{
+        border-color:radial-gradient(rgb(218.165,32),rgb(255,0,0),rgb(0,0,0));
+        border-radius:5%;
+    }
+    .headerFont{
+        font-family: "montserrat", sans-serif;
+        font-weight: 100;
+        font-size:24px;
+        color:goldenrod;
+    }
+    .subHeaderFont{
+        font-family: "montserrat", sans-serif;
+        font-weight: 100;
+        font-size:18px;
+        color:goldenrod;
+    }
+    .navGroup{
+        grid-area:2/4/3/5;
+        display:flex;
+        position:relative;
+        
+        
+    }
+    .hrl1{
+        grid-area:2/2/3/3;
+        position:relative;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+        height:10px;
+        width:400px;
+        z-index:3;
+        bottom:23px;
+        left:100px;
+        border-color:transparent;
+        border:transparent;
+    }
+    .hrl2{
+        grid-area:2/2/3/3;
+        position:relative;
+        right:100px;
+        top:172px;
+        rotate:90deg;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+        width:400px;
+        height:10px;
+        z-index:2;
+        border-color:transparent;
+        border:transparent;
+        
+    }
+    .hrl3{
+        grid-area:4/4/5/5;
+        position:relative;
+        background:linear-gradient(-90deg,rgba(218,165,32),rgba(255,255,255));
+        width:400px;
+        height:10px;
+        rotate:90deg;
+        z-index:2;
+        border-color:transparent;
+        border:transparent;
+        bottom:200px;
+        left:100px;
+    }
+    .hrl4{
+        grid-area:4/4/5/5;
+        position:relative;
+        background:linear-gradient(-90deg,rgba(218,165,32),rgba(255,255,255));
+        width:400px;
+        height:10px;
+        z-index:2;
+        border-color:transparent;
+        border:transparent;
+        right:125px;
+        left:-95px;
+        top:5px;
+    }
+    .projhr1{
+        grid-area:3/3/4/4;
+        background:linear-gradient(-90deg,rgba(218,165,32),rgba(255,255,255));
+        width:150px;
+        height:10px;
+        z-index:2;
+        border-color:transparent;
+        border:transparent;
+        rotate:-90deg;
+        position:relative;
+        bottom:130px;
+        left:200px;
+    }
+    .projhr2{
+        grid-area:3/3/4/4;
+        background:linear-gradient(-90deg,rgba(218,165,32),rgba(255,255,255));
+        width:150px;
+        height:10px;
+        z-index:2;
+        border-color:transparent;
+        border:transparent;
+        rotate:-180deg;
+        position:relative;
+        bottom:200px;
+        left:280px;
+    }
+    .navGroup2{
+        display:flex;
+        position:relative;
+        grid-area:1/5/2/6;
+    
+    }
+    .projectArea{
+        grid-area:3/3/4/4;
+        display:flex;
+        flex-flow:column wrap;
+        justify-content:flex-start;
+        align-content:flex-end;
+        position:relative;
+        bottom:25px;
+        right:20px;
+    }
+    
+    .nav1{
+        
+        font-family: "montserrat", sans-serif;
+        font-weight: 200;
+        justify-content:space-between;
+        right:150px;
+        color:rgba(218,165,32);
+        grid-area:2/4/3/5;
+        font-size:24px;
+        bottom:50px;
+        left:-93px;
+    }
+    .navhr1{
+        position:relative;
+        grid-column:1;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255)); 
+        height:10px;
+        width:75px;  
+        rotate:360deg;
+        justify-self:flex-start;
+        align-self:flex-start;
+        bottom:25px;
+        right:150px;
+        border-color:transparent;
+        border:transparent;
+    }
+    .nav2{
+        position:relative;
+        font-family: "montserrat", sans-serif;
+        font-weight: 200;
+        justify-content:space-between;
+        color:rgba(218,165,32);
+        grid-area:2/4/3/5;
+        font-size:24px;
+        left:-100px;
+        bottom:50px;
+    }
+    .navhr2{
+        position:relative;
+        grid-area:1/5/2/6;
+        rotate:90deg;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+        height:10px;
+        width:150px;  
+        rotate:360deg;
+        bottom:23px;
+        right:230px;
+        border-color:transparent;
+        border:transparent;
+        
+    }
+    .nav3{
+        position:relative;
+        font-family: "montserrat", sans-serif;
+        font-weight: 200;
+        justify-content:space-between;
+        left:-180px;
+        color:rgba(218,165,32);
+        grid-area:1/5/2/6;
+        font-size:24px;
+        bottom:50px;
+    }
+    .navhr3{
+        position:relative;
+        grid-area:1/5/2/6;
+        rotate:90deg;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+        height:10px;
+        width:100px;  
+        rotate:360deg;
+        bottom:23px;
+        right:260px;
+        border-color:transparent;
+        border:transparent;
+      
+    }
+    .div{
+        display:flex;
+        flex-flow:wrap;
+        grid-area:2/2/3/3;
+        position:relative;
+        top:-50px;
+    }
+    .img1{
+        grid-area:1/1/2/2;
+        display:flex;
+        align-content:flex-start;
+        justify-content:flex-start;
+        position:relative;
+        
+    }
+    .header1{
+        grid-area:2/2/3/3;
+        align-content:space-around;
+        justify-content:flex-start;
+        font-family:"montserrat",sans-serif;
+        font-weight:200;
+        color:rgba(218,165,32);
+        position:relative;
+        font-size:60px;
+        left:225px;
+        bottom:25px;
+        
+    }
+    .header2Proj{
+        grid-area:3/3/4/4;
+        display:flex;
+        font-family:"montserrat",sans-serif;
+        font-weight:130;
+        align-content:flex-start;
+        justify-content:flex-end;
+        position:relative;
+        top:-245px;
+        color:rgba(218,165,32);
+        font-size:36px;
+        bottom:180px;
+        left:80px;
+    }
+    .projLink1{
+        position:relative;
+        align-self:flex-start;
+        font-family:"montserrat",sans-serif;
+        justify-self:center;
+        color:rgba(218,165,32);
+        font-size:22px;
+        left:225px;
+        bottom:150px;
+    }
+    .projLink2{
+        position:relative;
+        align-self:space-between;
+        font-family:"montserrat",sans-serif;
+        justify-self:center;
+        color:rgba(218,165,32);
+        font-size:22px;
+        bottom:135px;
+        left:225px;
+    }
+    .projLink3{
+        align-self:flex-end;
+        font-family:"montserrat",sans-serif;
+        justify-self:center;
+        position:relative;
+        right:75px;
+        color:rgba(218,165,32);
+        font-size:22px;
+        bottom:120px;
+        left:125px;
+    }
+    .para1{
+        grid-area:2/2/3/3;
+        position:relative;
+        flex-flow:wrap;
+        align-content:space-between;
+        font-family:"montserrat",sans-serif;
+        font-size:14px;
+        width:500px;
+        left:150px;
+    }
+    .paraHr{
+        rotate:180deg;
+        color:linear-gradient(rgb(218,165,32),rgb(255,255,255));
+    }
+
+    .footer{
+        grid-area:5/3/6/4;
+        display:flex;
+    }
+    .footerHeader{
+        justify-content:flex-start;
+        align-self:flex-start;
+        position:relative;
+        bottom:95px;
+        left:100px;
+        font-family:"montserrat",sans-serif;
+        font-weight:100;
+        font-size:36px;
+        color:rgba(218,165,32);
+        height:10px;
+
+    }
+    .footerHr{
+        position:relative;
+        background:linear-gradient(-90deg,rgba(218,165,32),rgba(255,255,255));
+        width:200px;
+        height:10px;
+        z-index:2;
+        border-color:transparent;
+        border:transparent;
+        align-self:flex-start;
+        justify-self:flex-start;
+        rotate:-180deg;
+        right:75px;
+        bottom:50px;
+        
+    }
+    .fI1{
+    position:relative;
+    grid-area:5/2/6/3;
+    justify-self:flex-end;
+    align-self:flex-start;
+    left:110px;
+    bottom:30px;
+    
+    }
+    .fI2{
+        position:relative;
+        grid-area:5/2/6/3;
+    justify-self:flex-end;
+    align-self:flex-start;
+        left:180px;
+        bottom:30px;
+    }
+    .fI3{
+        position:relative;
+        grid-area:5/2/6/3;
+    justify-self:flex-end;
+    align-self:flex-start;
+        left:240px;
+        bottom:30px;
+    }
+    .fI4{
+        position:relative;
+        grid-area:5/2/6/3;
+    justify-self:flex-end;
+    align-self:flex-start;
+       left:300px;
+       bottom:30px;
+    }
+    .paraHr2{
+        grid-area:2/2/3/3;
+        justify-self:flex-start;
+        
+        position:relative;
+            background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+            height:10px;
+            width:100px;
+            z-index:3;
+            rotate:90deg;
+            border-color:transparent;
+            border:transparent;
+            right:205px;
+            top:56px;
+            bottom:-200px;
+        align-self:flex-end;
+        
+        
+    }
+
+}
+@media(max-width:1024px) and (max-height:640px){
+    .main{
+        display:grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-template-rows: repeat(5,1fr);
+        background:white;
+        background-size:cover;
+        height:62.5vw
+    }
+    .hr{
+        color:linear-gradient(rgb(218,165,32),rgb(255,255,255))
+    }
+    .mainBorder{
+        border-color:radial-gradient(rgb(218.165,32),rgb(255,0,0),rgb(0,0,0));
+        border-radius:5%;
+    }
+    .headerFont{
+        font-family: "montserrat", sans-serif;
+        font-weight: 100;
+        font-size:24px;
+        color:goldenrod;
+    }
+    .subHeaderFont{
+        font-family: "montserrat", sans-serif;
+        font-weight: 100;
+        font-size:18px;
+        color:goldenrod;
+    }
+    .navGroup{
+        grid-area:2/4/3/5;
+        display:flex;
+        position:relative;
+        
+        
+    }
+    .hrl1{
+        grid-area:2/2/3/3;
+        position:relative;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+        height:10px;
+        width:300px;
+        z-index:3;
+        bottom:23px;
+        left:100px;
+        border-color:transparent;
+        border:transparent;
+    }
+    .hrl2{
+        grid-area:2/2/3/3;
+        position:relative;
+        right:45px;
+        top:125px;
+        rotate:90deg;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+        width:300px;
+        height:10px;
+        z-index:2;
+        border-color:transparent;
+        border:transparent;
+        
+    }
+    .hrl3{
+        grid-area:4/4/5/5;
+        position:relative;
+        background:linear-gradient(-90deg,rgba(218,165,32),rgba(255,255,255));
+        width:300px;
+        height:10px;
+        rotate:90deg;
+        z-index:2;
+        border-color:transparent;
+        border:transparent;
+        bottom:200px;
+        left:10px;
+    }
+    .hrl4{
+        grid-area:4/4/5/5;
+        position:relative;
+        background:linear-gradient(-90deg,rgba(218,165,32),rgba(255,255,255));
+        width:300px;
+        height:10px;
+        z-index:2;
+        border-color:transparent;
+        border:transparent;
+        right:125px;
+        left:-145px;
+        top:-55px;
+    }
+    .projhr1{
+        grid-area:3/3/4/4;
+        background:linear-gradient(-90deg,rgba(218,165,32),rgba(255,255,255));
+        width:150px;
+        height:10px;
+        z-index:2;
+        border-color:transparent;
+        border:transparent;
+        rotate:-90deg;
+        position:relative;
+        bottom:160px;
+        left:150px;
+    }
+    .projhr2{
+        grid-area:3/3/4/4;
+        background:linear-gradient(-90deg,rgba(218,165,32),rgba(255,255,255));
+        width:150px;
+        height:10px;
+        z-index:2;
+        border-color:transparent;
+        border:transparent;
+        rotate:-180deg;
+        position:relative;
+        bottom:230px;
+        left:230px;
+    }
+    .navGroup2{
+        display:flex;
+        position:relative;
+        grid-area:1/5/2/6;
+    
+    }
+    .projectArea{
+        grid-area:3/3/4/4;
+        display:flex;
+        flex-flow:column wrap;
+        justify-content:flex-start;
+        align-content:flex-end;
+        position:relative;
+        bottom:25px;
+        right:20px;
+    }
+    
+    .nav1{
+        
+        font-family: "montserrat", sans-serif;
+        font-weight: 200;
+        justify-content:space-between;
+        right:150px;
+        color:rgba(218,165,32);
+        grid-area:2/4/3/5;
+        font-size:18px;
+        bottom:45px;
+        left:-150px;
+    }
+    .navhr1{
+        position:relative;
+        grid-column:1;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255)); 
+        height:8px;
+        width:75px;  
+        rotate:360deg;
+        justify-self:flex-start;
+        align-self:flex-start;
+        bottom:25px;
+        right:200px;
+        border-color:transparent;
+        border:transparent;
+    }
+    .nav2{
+        position:relative;
+        font-family: "montserrat", sans-serif;
+        font-weight: 200;
+        justify-content:space-between;
+        color:rgba(218,165,32);
+        grid-area:2/4/3/5;
+        font-size:18px;
+        left:-170px;
+        bottom:45px;
+    }
+    .navhr2{
+        position:relative;
+        grid-area:1/5/2/6;
+        rotate:90deg;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+        height:8px;
+        width:100px;  
+        rotate:360deg;
+        bottom:24px;
+        right:270px;
+        border-color:transparent;
+        border:transparent;
+        
+    }
+    .nav3{
+        position:relative;
+        font-family: "montserrat", sans-serif;
+        font-weight: 200;
+        justify-content:space-between;
+        left:-230px;
+        color:rgba(218,165,32);
+        grid-area:1/5/2/6;
+        font-size:18px;
+        bottom:45px;
+    }
+    .navhr3{
+        position:relative;
+        grid-area:1/5/2/6;
+        rotate:90deg;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+        height:8px;
+        width:80px;  
+        rotate:360deg;
+        bottom:23px;
+        right:295px;
+        border-color:transparent;
+        border:transparent;
+      
+    }
+    .div{
+        display:flex;
+        flex-flow:wrap;
+        grid-area:2/2/3/3;
+        position:relative;
+        top:-50px;
+        left:-150px;
+        }
+    .img1{
+        grid-area:1/1/2/2;
+        display:flex;
+        align-content:flex-start;
+        justify-content:flex-start;
+        position:relative;
+        left:-50px;
+    }
+    .header1{
+        grid-area:2/2/3/3;
+        align-content:space-around;
+        justify-content:flex-start;
+        font-family:"montserrat",sans-serif;
+        font-weight:200;
+        color:rgba(218,165,32);
+        position:relative;
+        font-size:48px;
+        left:350px;
+        bottom:25px;
+        
+    }
+    .header2Proj{
+        grid-area:3/3/4/4;
+        display:flex;
+        font-family:"montserrat",sans-serif;
+        font-weight:130;
+        align-content:flex-start;
+        justify-content:flex-end;
+        position:relative;
+        top:-275px;
+        color:rgba(218,165,32);
+        font-size:36px;
+        bottom:180px;
+        left:50px;
+    }
+    .projLink1{
+        position:relative;
+        align-self:flex-start;
+        font-family:"montserrat",sans-serif;
+        justify-self:center;
+        color:rgba(218,165,32);
+        font-size:18px;
+        left:125px;
+        bottom:180px;
+    }
+    .projLink2{
+        position:relative;
+        align-self:space-between;
+        font-family:"montserrat",sans-serif;
+        justify-self:center;
+        color:rgba(218,165,32);
+        font-size:18px;
+        bottom:160px;
+        left:130px;
+    }
+    .projLink3{
+        align-self:flex-end;
+        font-family:"montserrat",sans-serif;
+        justify-self:center;
+        position:relative;
+        right:75px;
+        color:rgba(218,165,32);
+        font-size:18px;
+        bottom:140px;
+        left:45px;
+    }
+    .para1{
+        grid-area:2/2/3/3;
+        position:relative;
+        flex-flow:wrap;
+        align-content:space-between;
+        font-family:"montserrat",sans-serif;
+        font-size:12px;
+        width:400px;
+        left:300px;
+        bottom:0px;
+    }
+    .paraHr{
+        rotate:180deg;
+        color:linear-gradient(rgb(218,165,32),rgb(255,255,255));
+    }
+
+    .footer{
+        grid-area:5/3/6/4;
+        display:flex;
+    }
+    .footerHeader{
+        justify-content:flex-start;
+        align-self:flex-start;
+        position:relative;
+        bottom:95px;
+        left:100px;
+        font-family:"montserrat",sans-serif;
+        font-weight:100;
+        font-size:36px;
+        color:rgba(218,165,32);
+        height:10px;
+
+    }
+    .footerHr{
+        position:relative;
+        background:linear-gradient(-90deg,rgba(218,165,32),rgba(255,255,255));
+        width:200px;
+        height:10px;
+        z-index:2;
+        border-color:transparent;
+        border:transparent;
+        align-self:flex-start;
+        justify-self:flex-start;
+        rotate:-180deg;
+        right:75px;
+        bottom:50px;
+        
+    }
+    .fI1{
+    position:relative;
+    grid-area:5/2/6/3;
+    justify-self:flex-end;
+    align-self:flex-start;
+    left:110px;
+    bottom:30px;
+    
+    }
+    .fI2{
+        position:relative;
+        grid-area:5/2/6/3;
+    justify-self:flex-end;
+    align-self:flex-start;
+        left:180px;
+        bottom:30px;
+    }
+    .fI3{
+        position:relative;
+        grid-area:5/2/6/3;
+    justify-self:flex-end;
+    align-self:flex-start;
+        left:240px;
+        bottom:30px;
+    }
+    .fI4{
+        position:relative;
+        grid-area:5/2/6/3;
+    justify-self:flex-end;
+    align-self:flex-start;
+       left:300px;
+       bottom:30px;
+    }
+    .paraHr2{
+        grid-area:2/2/3/3;
+        justify-self:flex-start;
+        
+        position:relative;
+            background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+            height:10px;
+            width:100px;
+            z-index:3;
+            rotate:90deg;
+            border-color:transparent;
+            border:transparent;
+            right:-5px;
+            top:56px;
+            bottom:-200px;
+        align-self:flex-end;
+            
+        
+    }
+
+
+}
+@media(max-width:960px) and (max-height:540px){
+    .main{
+        display:grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-template-rows: repeat(5,1fr);
+        background:white;
+        background-size:cover;
+        height:62.5vw
+    }
+    .hr{
+        color:linear-gradient(rgb(218,165,32),rgb(255,255,255))
+    }
+    .mainBorder{
+        border-color:radial-gradient(rgb(218.165,32),rgb(255,0,0),rgb(0,0,0));
+        border-radius:5%;
+    }
+    .headerFont{
+        font-family: "montserrat", sans-serif;
+        font-weight: 100;
+        font-size:24px;
+        color:goldenrod;
+    }
+    .subHeaderFont{
+        font-family: "montserrat", sans-serif;
+        font-weight: 100;
+        font-size:18px;
+        color:goldenrod;
+    }
+    .navGroup{
+        grid-area:2/4/3/5;
+        display:flex;
+        position:relative;
+        
+        
+    }
+    .hrl1{
+        grid-area:2/2/3/3;
+        position:relative;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+        height:10px;
+        width:300px;
+        z-index:3;
+        bottom:23px;
+        left:100px;
+        border-color:transparent;
+        border:transparent;
+    }
+    .hrl2{
+        grid-area:2/2/3/3;
+        position:relative;
+        right:45px;
+        top:125px;
+        rotate:90deg;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+        width:300px;
+        height:10px;
+        z-index:2;
+        border-color:transparent;
+        border:transparent;
+        
+    }
+    .hrl3{
+        grid-area:4/4/5/5;
+        position:relative;
+        background:linear-gradient(-90deg,rgba(218,165,32),rgba(255,255,255));
+        width:300px;
+        height:10px;
+        rotate:90deg;
+        z-index:2;
+        border-color:transparent;
+        border:transparent;
+        bottom:200px;
+        left:10px;
+    }
+    .hrl4{
+        grid-area:4/4/5/5;
+        position:relative;
+        background:linear-gradient(-90deg,rgba(218,165,32),rgba(255,255,255));
+        width:300px;
+        height:10px;
+        z-index:2;
+        border-color:transparent;
+        border:transparent;
+        right:125px;
+        left:-145px;
+        top:-55px;
+    }
+    .projhr1{
+        grid-area:3/3/4/4;
+        background:linear-gradient(-90deg,rgba(218,165,32),rgba(255,255,255));
+        width:150px;
+        height:10px;
+        z-index:2;
+        border-color:transparent;
+        border:transparent;
+        rotate:-90deg;
+        position:relative;
+        bottom:160px;
+        left:150px;
+    }
+    .projhr2{
+        grid-area:3/3/4/4;
+        background:linear-gradient(-90deg,rgba(218,165,32),rgba(255,255,255));
+        width:150px;
+        height:10px;
+        z-index:2;
+        border-color:transparent;
+        border:transparent;
+        rotate:-180deg;
+        position:relative;
+        bottom:230px;
+        left:230px;
+    }
+    .navGroup2{
+        display:flex;
+        position:relative;
+        grid-area:1/5/2/6;
+    
+    }
+    .projectArea{
+        grid-area:3/3/4/4;
+        display:flex;
+        flex-flow:column wrap;
+        justify-content:flex-start;
+        align-content:flex-end;
+        position:relative;
+        bottom:25px;
+        right:20px;
+    }
+    
+    .nav1{
+        
+        font-family: "montserrat", sans-serif;
+        font-weight: 200;
+        justify-content:space-between;
+        right:150px;
+        color:rgba(218,165,32);
+        grid-area:2/4/3/5;
+        font-size:18px;
+        bottom:45px;
+        left:-150px;
+    }
+    .navhr1{
+        position:relative;
+        grid-column:1;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255)); 
+        height:8px;
+        width:75px;  
+        rotate:360deg;
+        justify-self:flex-start;
+        align-self:flex-start;
+        bottom:25px;
+        right:200px;
+        border-color:transparent;
+        border:transparent;
+    }
+    .nav2{
+        position:relative;
+        font-family: "montserrat", sans-serif;
+        font-weight: 200;
+        justify-content:space-between;
+        color:rgba(218,165,32);
+        grid-area:2/4/3/5;
+        font-size:18px;
+        left:-170px;
+        bottom:45px;
+    }
+    .navhr2{
+        position:relative;
+        grid-area:1/5/2/6;
+        rotate:90deg;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+        height:8px;
+        width:100px;  
+        rotate:360deg;
+        bottom:24px;
+        right:270px;
+        border-color:transparent;
+        border:transparent;
+        
+    }
+    .nav3{
+        position:relative;
+        font-family: "montserrat", sans-serif;
+        font-weight: 200;
+        justify-content:space-between;
+        left:-230px;
+        color:rgba(218,165,32);
+        grid-area:1/5/2/6;
+        font-size:18px;
+        bottom:45px;
+    }
+    .navhr3{
+        position:relative;
+        grid-area:1/5/2/6;
+        rotate:90deg;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+        height:8px;
+        width:80px;  
+        rotate:360deg;
+        bottom:23px;
+        right:295px;
+        border-color:transparent;
+        border:transparent;
+      
+    }
+    .div{
+        display:flex;
+        flex-flow:wrap;
+        grid-area:2/2/3/3;
+        position:relative;
+        top:-50px;
+        left:-150px;
+        }
+    .img1{
+        grid-area:1/1/2/2;
+        display:flex;
+        align-content:flex-start;
+        justify-content:flex-start;
+        position:relative;
+        left:-50px;
+    }
+    .header1{
+        grid-area:2/2/3/3;
+        align-content:space-around;
+        justify-content:flex-start;
+        font-family:"montserrat",sans-serif;
+        font-weight:200;
+        color:rgba(218,165,32);
+        position:relative;
+        font-size:48px;
+        left:350px;
+        bottom:60px;
+        
+    }
+    .header2Proj{
+        grid-area:3/3/4/4;
+        display:flex;
+        font-family:"montserrat",sans-serif;
+        font-weight:130;
+        align-content:flex-start;
+        justify-content:flex-end;
+        position:relative;
+        top:-275px;
+        color:rgba(218,165,32);
+        font-size:36px;
+        bottom:180px;
+        left:50px;
+    }
+    .projLink1{
+        position:relative;
+        align-self:flex-start;
+        font-family:"montserrat",sans-serif;
+        justify-self:center;
+        color:rgba(218,165,32);
+        font-size:18px;
+        left:125px;
+        bottom:180px;
+    }
+    .projLink2{
+        position:relative;
+        align-self:space-between;
+        font-family:"montserrat",sans-serif;
+        justify-self:center;
+        color:rgba(218,165,32);
+        font-size:18px;
+        bottom:160px;
+        left:130px;
+    }
+    .projLink3{
+        align-self:flex-end;
+        font-family:"montserrat",sans-serif;
+        justify-self:center;
+        position:relative;
+        right:75px;
+        color:rgba(218,165,32);
+        font-size:18px;
+        bottom:140px;
+        left:45px;
+    }
+    .para1{
+        grid-area:2/2/3/3;
+        position:relative;
+        flex-flow:wrap;
+        align-content:space-between;
+        font-family:"montserrat",sans-serif;
+        font-size:12px;
+        width:400px;
+        left:300px;
+        bottom:55px;
+    }
+    .paraHr{
+        rotate:180deg;
+        color:linear-gradient(rgb(218,165,32),rgb(255,255,255));
+    }
+
+    .footer{
+        grid-area:5/3/6/4;
+        display:flex;
+
+    }
+    .footerHeader{
+        justify-content:flex-start;
+        align-self:flex-start;
+        position:relative;
+        bottom:130px;
+        left:10px;
+        font-family:"montserrat",sans-serif;
+        font-weight:100;
+        font-size:36px;
+        color:rgba(218,165,32);
+        height:10px;
+
+    }
+    .footerHr{
+        position:relative;
+        background:linear-gradient(-90deg,rgba(218,165,32),rgba(255,255,255));
+        width:220px;
+        height:10px;
+        z-index:2;
+        border-color:transparent;
+        border:transparent;
+        align-self:flex-start;
+        justify-self:flex-start;
+        rotate:-180deg;
+        right:140px;
+        bottom:90px;
+        
+    }
+    .fI1{
+    position:relative;
+    grid-area:5/2/6/3;
+    justify-self:flex-end;
+    align-self:flex-start;
+    left:35px;
+    bottom:75px;
+    
+    }
+    .fI2{
+        position:relative;
+        grid-area:5/2/6/3;
+    justify-self:flex-end;
+    align-self:flex-start;
+        left:100px;
+        bottom:75px;
+        
+    }
+    .fI3{
+        position:relative;
+        grid-area:5/2/6/3;
+    justify-self:flex-end;
+    align-self:flex-start;
+        left:155px;
+        bottom:75px;
+    }
+    .fI4{
+        position:relative;
+        grid-area:5/2/6/3;
+    justify-self:flex-end;
+    align-self:flex-start;
+       left:215px;
+       bottom:75px;
+    }
+    .paraHr2{
+        grid-area:2/2/3/3;
+        justify-self:flex-start;
+        
+        position:relative;
+            background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+            height:8px;
+            width:100px;
+            z-index:3;
+            rotate:90deg;
+            border-color:transparent;
+            border:transparent;
+            right:-10px;
+            top:-15px;
+            bottom:-200px;
+        align-self:flex-end;
+            
+            
+        
+    }
+
+} 
+
+@media(max-width:926px) and (min-height:540px){
+    .main{
+        display:grid;
+        
+        grid-template-columns:repeat(4,228.75);
+        grid-template-rows:repeat(4,1fr);
+        background:white;
+        background-size:100%;
+        height:222vw;
+    }
+    .hrl1{
+        grid-area:1/1/2/2;
+        position:relative;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+        height:10px;
+        width:300px;
+        z-index:3;
+       
+        border-color:transparent;
+        border:transparent;
+
+    }
+    .hrl2{
+        grid-area:1/1/2/2;
+        position:relative;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+        height:10px;
+        width:300px;
+        z-index:3;
+        rotate:90deg;
+        border-color:transparent;
+        border:transparent;
+        justify-self:flex-start;
+        align-self:flex-start;
+        right:145px;
+        top:120px;
+    }
+    .hrl3{
+        grid-area:4/1/5/2;
+        position:relative;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+        height:10px;
+        width:300px;
+        z-index:3;
+        justify-content:flex-start;
+        align-self:flex-start;
+        border-color:transparent;
+        border:transparent;
+        left:257px;
+        rotate:-90deg;
+        top:64px;
+    }
+    .hrl4{
+        grid-area:4/1/5/2;
+        position:relative;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+        height:10px;
+        width:300px;
+        z-index:3;
+        justify-content:flex-start;
+        align-self:flex-start;
+        border-color:transparent;
+        border:transparent;
+        top:218.8px;
+        rotate:180deg;
+        left:112px;
+    }
+    .projhr1{
+        grid-area:2/1/3/2;
+        position:relative;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+        height:10px;
+        width:175px;
+        top:155px;
+        left:107.5px;
+        border-color:transparent;
+        border:transparent;
+        align-self:center;
+
+    }
+    .projhr2{
+        grid-area:2/1/3/2;
+        position:relative;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+        height:10px;
+        width:175px;
+        border-color:transparent;
+        border:transparent;
+        rotate:90deg;
+        align-self:flex-end;
+        top:130px;
+        left:25px;
+    }
+    .navGroup{
+        grid-area:1/1/2/2;
+
+    }
+    .div{
+        grid-area:1/1/2/2;
+        display:flex;
+        position:relative;
+        height:100%;
+        z-index: 5;
+        grid-template-columns:repeat(4,100px);
+        grid-template-rows:repeat(4,100px);
+
+    }
+    .header1{
+        grid-area:1/2/2/3;
+        display:flex;
+        position:relative;
+        font-family:"montserrat",sans-serif;
+        color:rgba(218,165,32);
+        font-weight:100;
+        right:255px;
+        top:170px;
+        font-size:28px;
+        
+    }
+    .fI1{
+        grid-area:4/1/5/2;
+        display:flex;
+        position:relative;
+        top:100px;
+        z-index:1;
+        left:25px;
+    }
+    .fI2{
+        grid-area:4/1/5/2;
+        display:flex;
+        position:relative;
+        top:100px;
+        z-index:3;
+        left:85px;
+    }
+.fI3{
+    grid-area:4/1/5/2;
+        display:flex;
+        position:relative;
+        top:100px;
+        z-index:3;
+        left:140px;
+}
+.fI4{
+    grid-area:4/1/5/2;
+        display:flex;
+        position:relative;
+        top:100px;
+        z-index:3;
+        left:200px;
+}
+.footer{
+    grid-area:3/3/4/4;
+    
+}
+.para1{
+    display:flex;
+    position:fixed;
+    grid-area:1/2/2/3;
+     justify-self:center;
+    align-self:flex-end;
+    font-size: 14px;
+    font-family:"montserrat",sans-serif;
+    top:250px;
+    width:300px;
+    left:55px;
+    font-weight:400;
+    
+    
+}
+.header2Proj{
+    grid-area:3/1/4/2;
+    font-size:24px;
+    position:relative;
+    z-index:5;
+    left:150px;
+    color:rgba(218,165,32);
+    font-family:"montserrat",sans-serif;
+    font-weight:300;
+}
+.projLink1{
+    position:relative;
+    color:rgba(218,165,32);
+    font-size:18px;
+    flex-flow: wrap;
+    font-weight:300;
+    bottom:130px;
+    left:125px;
+    font-family:"montserrat",sans-serif;
+}
+.projLink2{
+    position:relative;
+    color:rgba(218,165,32);
+    font-size:18px;
+    flex-flow: wrap;
+    font-weight:300;
+    bottom:85px;
+    right:75px;
+    font-family:"montserrat",sans-serif;
+}
+.projLink3{
+    position:relative;
+    color:rgba(218,165,32);
+    font-size:18px;
+    flex-flow: wrap;
+    font-weight:300;
+    bottom:40px;
+    right:230px;
+    font-family:"montserrat",sans-serif;
+}
+.projectArea{
+    grid-area:3/1/4/2;
+    align-items:flex-end;
+    flex-flow:wrap;
+    display:flex;
+
+}
+.paraHr2{
+    justify-self:flex-start;
+    
+    position:relative;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+        height:10px;
+        width:125px;
+        z-index:3;
+        rotate:90deg;
+        border-color:transparent;
+        border:transparent;
+        right:490px;
+        top:90px;
+        bottom:-200px;
+    align-self:flex-end;
+    
+}
+.br{
+    line-height:10px;
+}
+
+
+
+}
+@media(max-width:1920px) and (max-height:1080){
+
+
+}
+@media(max-width:1366px) and (max-height:768px){
+
+}
+@media(max-width:1024px) and (max-height:640px){
+
+}
+@media(max-width:960px) and (max-height:540px){
+
+} 
+
+
+@media(max-width:380px) and (max-height:760px){
+    .main{
+        display:grid;
+        
+        grid-template-columns:repeat(4,228.75);
+        grid-template-rows:repeat(4,1fr);
+        background:white;
+        background-size:100%;
+        height:205vw;
+    }
+    .hrl3{
+        grid-area:4/1/5/2;
+        position:relative;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+        height:10px;
+        width:300px;
+        z-index:3;
+        justify-content:flex-start;
+        align-self:flex-start;
+        border-color:transparent;
+        border:transparent;
+        left:205px;
+        rotate:-90deg;
+        top:30px;
+    }
+    .hrl4{
+        grid-area:4/1/5/2;
+        position:relative;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+        height:10px;
+        width:300px;
+        z-index:3;
+        justify-content:flex-start;
+        align-self:flex-start;
+        border-color:transparent;
+        border:transparent;
+        top:170px;
+        rotate:180deg;
+        left:60px;
+    }
+    .projhr1{
+        grid-area:2/1/3/2;
+        position:relative;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+        height:10px;
+        width:150px;
+        top:130px;
+        left:100px;
+        border-color:transparent;
+        border:transparent;
+        align-self:center;
+
+    }
+    .projhr2{
+        grid-area:2/1/3/2;
+        position:relative;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+        height:10px;
+        width:150px;
+        border-color:transparent;
+        border:transparent;
+        rotate:90deg;
+        align-self:flex-end;
+        top:116px;
+        left:25px;
+    }
+    .projLink1{
+        position:relative;
+        color:rgba(218,165,32);
+        font-size:18px;
+        flex-flow: wrap;
+        font-weight:300;
+        bottom:100px;
+        left:115px;
+        font-family:"montserrat",sans-serif;
+    }
+    .projLink2{
+        position:relative;
+        color:rgba(218,165,32);
+        font-size:18px;
+        flex-flow: wrap;
+        font-weight:300;
+        bottom:50px;
+        right:85px;
+        font-family:"montserrat",sans-serif;
+    }
+    .projLink3{
+        position:relative;
+        color:rgba(218,165,32);
+        font-size:18px;
+        flex-flow: wrap;
+        font-weight:300;
+        bottom:0px;
+        right:240px;
+        font-family:"montserrat",sans-serif;
+    }
+    .header2Proj{
+        grid-area:3/1/4/2;
+        font-size:24px;
+        position:relative;
+        z-index:5;
+        left:100px;
+        color:rgba(218,165,32);
+        font-family:"montserrat",sans-serif;
+        font-weight:300;
+    }
+    .paraHr2{
+        justify-self:flex-start;
+        
+        position:relative;
+            background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+            height:10px;
+            width:100px;
+            z-index:3;
+            rotate:90deg;
+            border-color:transparent;
+            border:transparent;
+            right:480px;
+            top:105px;
+            bottom:-200px;
+        align-self:flex-end;
+        
+    }
+    .para1{
+        display:flex;
+        position:fixed;
+        grid-area:1/2/2/3;
+         justify-self:center;
+        align-self:flex-end;
+        font-size: 12px;
+        font-family:"montserrat",sans-serif;
+        top:250px;
+        width:270px;
+        left:55px;
+        font-weight:400;
+        
+        
+    }
+
+
+}
+@media(max-width:390px) and (max-height:844px){
+    .hrl3{
+        grid-area:4/1/5/2;
+        position:relative;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+        height:10px;
+        width:300px;
+        z-index:3;
+        justify-content:flex-start;
+        align-self:flex-start;
+        border-color:transparent;
+        border:transparent;
+        right:230px;
+        rotate:-90deg;
+        top:0px;
+    }
+    .hrl4{
+        grid-area:4/1/5/2;
+        position:relative;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+        height:10px;
+        width:300px;
+        z-index:3;
+        justify-content:flex-start;
+        align-self:flex-start;
+        border-color:transparent;
+        border:transparent;
+        top:170px;
+        rotate:180deg;
+        left:60px;
+        right:100px;
+    }
+    .projhr1{
+        grid-area:2/1/3/2;
+        position:relative;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+        height:10px;
+        width:150px;
+        top:145px;
+        left:95px;
+        border-color:transparent;
+        border:transparent;
+        align-self:center;
+
+    }
+    .projhr2{
+        grid-area:2/1/3/2;
+        position:relative;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+        height:10px;
+        width:150px;
+        border-color:transparent;
+        border:transparent;
+        rotate:90deg;
+        align-self:flex-end;
+        top:116px;
+        left:25px;
+    }
+    .projLink1{
+        position:relative;
+        color:rgba(218,165,32);
+        font-size:18px;
+        flex-flow: wrap;
+        font-weight:300;
+        bottom:130px;
+        left:115px;
+        font-family:"montserrat",sans-serif;
+        
+    }
+    .projLink2{
+        position:relative;
+        color:rgba(218,165,32);
+        font-size:18px;
+        flex-flow: wrap;
+        font-weight:300;
+        bottom:90px;
+        right:85px;
+        font-family:"montserrat",sans-serif;
+    }
+    .projLink3{
+        position:relative;
+        color:rgba(218,165,32);
+        font-size:18px;
+        flex-flow: wrap;
+        font-weight:300;
+        bottom:50px;
+        right:240px;
+        font-family:"montserrat",sans-serif;
+    }
+    .header2Proj{
+        grid-area:3/1/4/2;
+        font-size:24px;
+        position:relative;
+        z-index:5;
+        left:100px;
+        color:rgba(218,165,32);
+        font-family:"montserrat",sans-serif;
+        font-weight:300;
+    }
+    .paraHr2{
+        justify-self:flex-start;
+        
+        position:relative;
+            background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+            height:10px;
+            width:100px;
+            z-index:3;
+            rotate:90deg;
+            border-color:transparent;
+            border:transparent;
+            right:480px;
+            top:90px;
+            bottom:-200px;
+        align-self:flex-end;
+        
+    }
+    .para1{
+        display:flex;
+        position:fixed;
+        grid-area:1/2/2/3;
+         justify-self:center;
+        align-self:flex-end;
+        font-size: 12px;
+        font-family:"montserrat",sans-serif;
+        top:250px;
+        width:270px;
+        left:55px;
+        font-weight:400;
+        
+        
+    }
+
+
+
+} 
+@media(max-width:414px) and (max-height:896px){
+    .hrl3{
+        grid-area:4/1/5/2;
+        position:relative;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+        height:10px;
+        width:300px;
+        z-index:3;
+        justify-content:flex-start;
+        align-self:flex-start;
+        border-color:transparent;
+        border:transparent;
+        right:-3px;
+        rotate:-90deg;
+        top:53px;
+    }
+    .hrl4{
+        grid-area:4/1/5/2;
+        position:relative;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+        height:10px;
+        width:300px;
+        z-index:3;
+        justify-content:flex-start;
+        align-self:flex-start;
+        border-color:transparent;
+        border:transparent;
+        top:197px;
+        rotate:180deg;
+        left:105px;
+    }
+
+}
+@media(max-width:360px) and (max-height:740px){
+    .hrl3{
+        grid-area:4/1/5/2;
+        position:relative;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+        height:10px;
+        width:300px;
+        z-index:3;
+        justify-content:flex-start;
+        align-self:flex-start;
+        border-color:transparent;
+        border:transparent;
+        right:-3px;
+        rotate:-90deg;
+        top:33px;
+    }
+    .hrl4{
+        grid-area:4/1/5/2;
+        position:relative;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+        height:10px;
+        width:300px;
+        z-index:3;
+        justify-content:flex-start;
+        align-self:flex-start;
+        border-color:transparent;
+        border:transparent;
+        top:170px;
+        rotate:180deg;
+        left:105px;
+    }
+    .projhr1{
+        grid-area:2/1/3/2;
+        position:relative;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+        height:10px;
+        width:140px;
+        top:135px;
+        left:95px;
+        border-color:transparent;
+        border:transparent;
+        align-self:center;
+   
+    }
+    .projhr2{
+        grid-area:2/1/3/2;
+        position:relative;
+        background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+        height:10px;
+        width:140px;
+        border-color:transparent;
+        border:transparent;
+        rotate:90deg;
+        align-self:flex-end;
+        top:116px;
+        left:25px;
+    }
+    .projLink1{
+        position:relative;
+        color:rgba(218,165,32);
+        font-size:18px;
+        flex-flow: wrap;
+        font-weight:300;
+        bottom:100px;
+        left:110px;
+        font-family:"montserrat",sans-serif;
+        
+    }
+    .projLink2{
+        position:relative;
+        color:rgba(218,165,32);
+        font-size:18px;
+        flex-flow: wrap;
+        font-weight:300;
+        bottom:60px;
+        right:87px;
+        font-family:"montserrat",sans-serif;
+    }
+    .projLink3{
+        position:relative;
+        color:rgba(218,165,32);
+        font-size:18px;
+        flex-flow: wrap;
+        font-weight:300;
+        bottom:10px;
+        right:245px;
+        font-family:"montserrat",sans-serif;
+
+    }
+    .paraHr2{
+        justify-self:flex-start;
+        
+        position:relative;
+            background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+            height:10px;
+            width:100px;
+            z-index:3;
+            rotate:90deg;
+            border-color:transparent;
+            border:transparent;
+            right:480px;
+            top:105px;
+            bottom:-200px;
+        align-self:flex-end;
+        
+    }
+
+
+}
+    @media(max-width:375px) and (max-height:667px){
+        .hrl3{
+            grid-area:4/1/5/2;
+            position:relative;
+            background:rgba(255,255,255);
+            height:10px;
+            width:300px;
+            z-index:3;
+            justify-content:flex-start;
+            align-self:flex-start;
+            border-color:transparent;
+            border:transparent;
+            right:-3px;
+            rotate:-90deg;
+            top:33px;
+            right:-10px;
+            bottom:50px;
+
+        }
+        .hrl4{
+            grid-area:4/1/5/2;
+            position:relative;
+            background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+            height:10px;
+            width:300px;
+            z-index:3;
+            justify-content:flex-start;
+            align-self:flex-start;
+            border-color:transparent;
+            border:transparent;
+            top:170px;
+            rotate:180deg;
+            left:55px;
+
+        }
+        .projhr1{
+            grid-area:2/1/3/2;
+            position:relative;
+            background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+            height:10px;
+            width:140px;
+            top:135px;
+            left:95px;
+            border-color:transparent;
+            border:transparent;
+            align-self:center;
+       
+        }
+        .projhr2{
+            grid-area:2/1/3/2;
+            position:relative;
+            background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+            height:10px;
+            width:140px;
+            border-color:transparent;
+            border:transparent;
+            rotate:90deg;
+            align-self:flex-end;
+            top:111px;
+            left:25px;
+        }
+        .projLink1{
+            position:relative;
+            color:rgba(218,165,32);
+            font-size:18px;
+            flex-flow: wrap;
+            font-weight:300;
+            bottom:115px;
+            left:110px;
+            font-family:"montserrat",sans-serif;
+            
+        }
+        .projLink2{
+            position:relative;
+            color:rgba(218,165,32);
+            font-size:18px;
+            flex-flow: wrap;
+            font-weight:300;
+            bottom:70px;
+            right:87px;
+            font-family:"montserrat",sans-serif;
+
+        }
+        .projLink3{
+            position:relative;
+            color:rgba(218,165,32);
+            font-size:18px;
+            flex-flow: wrap;
+            font-weight:300;
+            bottom:25px;
+            right:245px;
+            font-family:"montserrat",sans-serif;
+    
+        }
+        .fI1{
+            grid-area:4/1/5/2;
+            display:flex;
+            position:relative;
+            top:30px;
+            z-index:1;
+            left:25px;
+        }
+        .fI2{
+            grid-area:4/1/5/2;
+            display:flex;
+            position:relative;
+            top:30px;
+            z-index:3;
+            left:85px;
+        }
+    .fI3{
+        grid-area:4/1/5/2;
+            display:flex;
+            position:relative;
+            top:30px;
+            z-index:3;
+            left:140px;
+    }
+    .fI4{
+        grid-area:4/1/5/2;
+            display:flex;
+            position:relative;
+            top:30px;
+            z-index:3;
+            left:200px;
+    }
+    .paraHr2{
+        justify-self:flex-start;
+        
+        position:relative;
+            background:linear-gradient(90deg,rgba(218,165,32),rgba(255,255,255));
+            height:10px;
+            width:100px;
+            z-index:3;
+            rotate:90deg;
+            border-color:transparent;
+            border:transparent;
+            right:480px;
+            top:107px;
+            bottom:-200px;
+        align-self:flex-end;
+        
+    }
+
+    }
